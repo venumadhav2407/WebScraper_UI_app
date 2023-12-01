@@ -1,0 +1,5 @@
+
+# .py to .exe
+
+
+pyinstaller --onefile  --windowed --add-data "C:/Users/bvm20/AppData/Local/Programs/Python/Python311/Lib/site-packages/customtkinter;customtkinter/" Scaper.py  --icon=scrape.ico
